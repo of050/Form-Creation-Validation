@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('registration-form');
     const feedbackDiv = document.getElementById('form-feedback');
 
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let isValid = true;
         const messages = [];
 
-        // Username validation2
+        // Username validation
         if (username.length < 3) {
             isValid = false;
             messages.push('Username must be at least 3 characters long.');
