@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let isValid = true;
         const messages = [];
 
-        // Username validation
+        // Username validation2
         if (username.length < 3) {
             isValid = false;
             messages.push('Username must be at least 3 characters long.');
